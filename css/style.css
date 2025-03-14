@@ -1,0 +1,80 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER*/
+header {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    padding: 15px 0; /* Espaciado interno */
+    display: flex;
+    justify-content: space-between; /* Distribuye el logo y la navegación */
+    align-items: center;
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0; 
+}
+
+/* Estilos del logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px; /* Espaciado desde el borde izquierdo */
+}
+
+/* Estilos del menú de navegación con la clase .menu */
+.menu ul {
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos en fila */
+}
+
+/* Estilos de los elementos del menú */
+.menu ul li {
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+/* Estilos de los enlaces del menú */
+.menu ul li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: white; /* Color del texto */
+    font-size: 18px;
+    padding: 10px 15px; /* Espaciado interno */
+    transition: 0.3s; /* Transición suave */
+}
+
+/* Efecto hover para los enlaces */
+.menu ul li a:hover {
+    background-color: #ff6600; /* Color de fondo al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+______________________________________________________________________
+
+/* FOOTER */
+footer {
+    background-color: #222 !important; /* Color de fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    width: 100%; /* Asegurar que ocupa todo el ancho */
+    position: relative; /* Mantenerlo en flujo normal */
+}
+
+/* Estilo del texto */
+footer p {
+    margin: 0;
+    padding: 5px;
+    font-weight: 400;
+}
+
+/* Efecto hover */
+footer p:hover {
+    color: #ff6600;
+    transition: color 0.3s ease-in-out;
+}
